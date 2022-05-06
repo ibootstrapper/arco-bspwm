@@ -70,7 +70,7 @@ done
 func_category Multimedia
 
 list=(
-peek
+# peek
 )
 
 count=0

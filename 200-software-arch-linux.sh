@@ -55,7 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
+# variety
 )
 
 count=0
@@ -70,9 +70,10 @@ done
 func_category Development
 
 list=(
-atom
+# atom
 meld
-sublime-text-4
+visual-studio-code-bin
+# sublime-text-4
 )
 
 count=0
@@ -87,9 +88,9 @@ done
 func_category Graphics
 
 list=(
-gimp
-inkscape
-nomacs
+# gimp
+# inkscape
+# nomacs
 )
 
 count=0
@@ -104,8 +105,8 @@ done
 func_category Internet
 
 list=(
-chromium
-qbittorrent
+# chromium
+# qbittorrent
 )
 
 count=0
@@ -150,8 +151,8 @@ done
 func_category System
 
 list=(
-dconf-editor
-arc-gtk-theme
+# dconf-editor
+# arc-gtk-theme
 )
 
 count=0

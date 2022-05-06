@@ -69,9 +69,9 @@ echo
 echo "Select the correct desktop"
 echo
 echo "0.  Do nothing"
-echo "1.  Erik"
-echo "2.  Raniel"
-echo "3.  Steve"
+echo "1.  snick"
+# echo "2.  Raniel"
+# echo "3.  Steve"
 echo "Type the number..."
 
 read CHOICE
@@ -89,8 +89,8 @@ case $CHOICE in
     1 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "arcolinuxz"
-			git config --global user.email "arcolinuxinfo@gmail.com"
+			git config --global user.name "snick"
+			git config --global user.email "ido.samuelson@gmail.com"
 			sudo git config --system core.editor nano
 			#git config --global credential.helper cache
 			#git config --global credential.helper 'cache --timeout=32000'
@@ -98,24 +98,24 @@ case $CHOICE in
       echo
       echo "Everything set"
       ;;
-    2 )
-			git config --global pull.rebase false
-			git config --global push.default simple
-			git config --global user.name "Raniel Laguna"
-			git config --global user.email "avraniel@gmail.com"
-			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
-      ;;
-    3 )
-			git config --global pull.rebase false
-			git config --global push.default simple
-			git config --global user.name "Steve Younger"
-			git config --global user.email "coritanie@gmail.com"
-			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
-      ;;
+#    2 )
+#			git config --global pull.rebase false
+#			git config --global push.default simple
+#			git config --global user.name "Raniel Laguna"
+#			git config --global user.email "avraniel@gmail.com"
+#			sudo git config --system core.editor nano
+#			git config --global credential.helper cache
+#			git config --global credential.helper 'cache --timeout=32000'
+#      ;;
+#    3 )
+#			git config --global pull.rebase false
+#			git config --global push.default simple
+#			git config --global user.name "Steve Younger"
+#			git config --global user.email "coritanie@gmail.com"
+#			sudo git config --system core.editor nano
+#			git config --global credential.helper cache
+#			git config --global credential.helper 'cache --timeout=32000'
+#      ;;
     * )
       echo "#################################"
       echo "Choose the correct number"
